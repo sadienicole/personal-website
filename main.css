@@ -1,5 +1,5 @@
 :root {
-    --green: #c7ddc7;
+    --green: #d4ebd4;
     --white: #ffffff;
     --black: #000000;
 }
@@ -8,19 +8,58 @@
     font-family: 'Source Code Pro', monospace;
     color: var(--fontColor);
 }
-body 
-{
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
     background: var(--bg);
+    display: table-cell;
+    vertical-align: middle;
 }
 
-ul
-{
+header {
+    background-color: #2d4b2f;
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    display: flex;
+    --fontColor: var(--green);
+    align-items: center;
+}
+
+header * {
+    display: inline-block;
+    vertical-align: center;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    text-decoration: none;
+}
+
+h1 {
+    position: fixed;
+    margin-top: 40px;
+    align-items: center;
+}
+
+ul {
     font-family: 'Source Code Pro', monospace;
-    font: var(--fontColor);
 }
 
-li {
-    list-style: circle;
+.tasklist {
+    font-family: 'Source Code Pro', monospace;
+    position: fixed;
+    top: 300px;
 }
 
 .list {
@@ -44,6 +83,8 @@ li {
 img {
     border: 1px solid #ddd;
     border-radius: 50%;
+    position: fixed;
+    top: 120px;
     padding: 5px;
     object-fit: cover;
     width: 150px;
