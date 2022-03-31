@@ -6,6 +6,7 @@
 
 * {
     font-family: 'Source Code Pro', monospace;
+    color: var(--fontColor);
 }
 body 
 {
@@ -15,6 +16,7 @@ body
 ul
 {
     font-family: 'Source Code Pro', monospace;
+    font: var(--fontColor);
 }
 
 li {
