@@ -1,0 +1,65 @@
+:root {
+    --green: #a1b6a1;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+* {
+    font-family: 'Source Code Pro', monospace;
+}
+body 
+{
+    background: var(--bg);
+}
+
+ul
+{
+    font-family: 'Source Code Pro', monospace;
+}
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
+.light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
+
+#imgDiv {
+    width: 300px;
+    height: 300px;
+    background-image: url("sample-profile.JPG");
+    background-size: 1400px;
+    background-position: -25px -20px;
+    border-radius: 50%;
+    background-size: cover;
+}
+.btn {
+    position: absolute;
+    top: 500px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.btn:focus {
+    outline-style: none;
+}
