@@ -1,5 +1,5 @@
 :root {
-    --green: #a1b6a1;
+    --green: #c7ddc7;
     --white: #ffffff;
     --black: #000000;
 }
@@ -39,15 +39,13 @@ li {
     --btnFontColor: var(--black);
 }
 
-#imgDiv {
-    width: 300px;
-    height: 300px;
-    background-image: url("sample-profile.JPG");
-    background-size: 1400px;
-    background-position: -25px -20px;
-    border-radius: 50%;
-    background-size: cover;
-}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+
 .btn {
     position: absolute;
     top: 500px;
