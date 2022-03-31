@@ -22,12 +22,12 @@ body {
 
 header {
     background-color: #2d4b2f;
-    position: relative;
+    position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     right: 0;
-    height: 40px;
+    height: 60px;
     display: flex;
     --fontColor: var(--green);
     align-items: center;
@@ -48,7 +48,7 @@ header li a {
 
 h1 {
     position: fixed;
-    margin-top: 40px;
+    margin-top: 0px;
     align-items: center;
 }
 
@@ -58,8 +58,8 @@ ul {
 
 .tasklist {
     font-family: 'Source Code Pro', monospace;
-    position: fixed;
-    top: 300px;
+    position: relative;
+    margin-top: 250px;
 }
 
 .list {
@@ -83,8 +83,8 @@ ul {
 img {
     border: 1px solid #ddd;
     border-radius: 50%;
-    position: fixed;
-    top: 120px;
+    position: relative;
+    top: 80px;
     padding: 5px;
     object-fit: cover;
     width: 150px;
@@ -92,9 +92,9 @@ img {
   }
 
 .btn {
-    position: absolute;
-    top: 500px;
-    left: 250px;
+    position: fixed;
+    top: 5px;
+    right: 5px;
     height: 50px;
     width: 50px;
     border-radius: 50%;
