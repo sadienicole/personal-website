@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>education and awards</title>
+    <title>password generator</title>
     <link rel="stylesheet" href="main.css">
 </head>
-<nav>
-    <ul>
-        <li><a href="index.html">homepage</a></li>
-        <li><a href="experience.html">experience</a></li>
-        <li><a href="https://github.com/sadienicole">github projects</a></li>
-    </ul>
-</nav>
 <body class="light-theme">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">homepage</a></li>
+                <li><a href="experience.html">ravioli</a></li>
+                <li><a href="https://github.com/sadienicole">github</a></li>
+            </ul>
+        </nav>
+    </header>
     <h1>
-        my education
+        random password generator
     </h1>
-    <p>
-        i am getting my bachelor's of science in computer science from arizona state university.
-    </p>
+    <div>
+        <p>enter a number of characters:</p>
+        <input type="text" id="numCharacters" name="numCharacters"><br><br>
+        <button onclick="pwGenerator()">submit</button>
+        <p id="practice"></p>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>

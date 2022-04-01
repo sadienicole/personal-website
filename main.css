@@ -9,20 +9,20 @@
     color: var(--fontColor);
 }
 
-html {
-    display: table;
-    margin: auto;
+@font-face {
+    font-family: "pressStart";
+    src: url(pressstart2p-vav7-webfont.woff);
 }
 
 body {
     background: var(--bg);
-    display: table-cell;
-    vertical-align: middle;
+    display: table;
+    margin: auto;
 }
 
 header {
     background-color: #2d4b2f;
-    position: fixed;
+    position: relative;
     width: 100%;
     top: 0;
     left: 0;
@@ -47,9 +47,10 @@ header li a {
 }
 
 h1 {
-    position: fixed;
-    margin-top: 0px;
-    align-items: center;
+    position: relative;
+    font-family: "pressStart";
+    font-size: large;
+    margin-top:0px;
 }
 
 ul {
@@ -59,7 +60,7 @@ ul {
 .tasklist {
     font-family: 'Source Code Pro', monospace;
     position: relative;
-    margin-top: 250px;
+    margin-top: 100px;
 }
 
 .list {
@@ -105,4 +106,16 @@ img {
 
 .btn:focus {
     outline-style: none;
+}
+
+.aboutme-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90vw;
+    height: 90vw;
+    background-color: rgb(118, 146, 113);
+    border: 2px white;
+
 }
