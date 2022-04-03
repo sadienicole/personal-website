@@ -1,7 +1,6 @@
 'use strict';
 let characters = 0;
 let password = "";
-const options = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!?";
 const switcher = document.querySelector('.btn');
 switcher.addEventListener('click', function() {
     document.body.classList.toggle('dark-theme')

@@ -16,7 +16,7 @@
 
 body {
     background: var(--bg);
-    display: table;
+    /*display: table;*/
     margin: auto;
 }
 
@@ -25,8 +25,8 @@ header {
     position: relative;
     width: 100%;
     top: 0;
-    left: 0;
-    right: 0;
+    /*left: 0;
+    right: 0;*/
     height: 60px;
     display: flex;
     --fontColor: var(--green);
@@ -51,6 +51,11 @@ h1 {
     font-family: "pressStart";
     font-size: large;
     margin-top:0px;
+}
+
+div1 {
+    display: table;
+    margin: auto;
 }
 
 ul {
