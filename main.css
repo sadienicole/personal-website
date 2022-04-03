@@ -55,15 +55,19 @@ h1 {
     position: relative;
     font-family: "pressStart";
     font-size: large;
-    margin-top: 0px;
+    margin: auto;
 }
 
 div1 {
     border: 5px solid var(--grey);
     background-color: var(--divBG);
-    padding: 15%;
-    display: inline-block;
-    margin: 5%;
+    padding: 5%;
+    display:grid;
+    margin-top: 2%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
 }
 
 ul {
@@ -73,11 +77,20 @@ ul {
 .tasklist {
     font-family: 'Source Code Pro', monospace;
     position: relative;
-    margin-top: 100px;
+    padding: 2%;
+    margin-top: 15%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    
 }
 
 .list {
     list-style: square;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    
 }
 
 .light-theme {
