@@ -1,7 +1,12 @@
 :root {
     --green: #d4ebd4;
+    --darkblue: #212743;
     --white: #ffffff;
-    --black: #000000;
+    --black: #282828;
+    --offwhite: #fafeeb;
+    --lightpink: #c9b0b0;
+    --grey: #7e7e7e;
+    --lightblue: #c0d0e4;
 }
 
 * {
@@ -15,13 +20,12 @@
 }
 
 body {
-    background: var(--bg);
+    background-color: var(--bg);
     /*display: table;*/
     margin: auto;
 }
 
 header {
-    background-color: #2d4b2f;
     position: relative;
     width: 100%;
     top: 0;
@@ -29,8 +33,9 @@ header {
     right: 0;*/
     height: 60px;
     display: flex;
-    --fontColor: var(--green);
     align-items: center;
+    color: var(--headfontcolor);
+    background-color: var(--headerbg);
 }
 
 header * {
@@ -50,12 +55,15 @@ h1 {
     position: relative;
     font-family: "pressStart";
     font-size: large;
-    margin-top:0px;
+    margin-top: 0px;
 }
 
 div1 {
-    display: table;
-    margin: auto;
+    border: 5px solid var(--grey);
+    background-color: var(--divBG);
+    padding: 15%;
+    display: inline-block;
+    margin: 5%;
 }
 
 ul {
@@ -73,21 +81,27 @@ ul {
 }
 
 .light-theme {
-    --bg: var(--green);
-    --fontColor: var(--black);
+    --bg: var(--lightblue);
+    --divBG: var(--darkblue);
+    --headerbg: var(--darkblue);
+    --fontColor: var(--white);
     --btnBg: var(--black);
     --btnFontColor: var(--white);
+    --headfontcolor: var(--white);
 }
 
 .dark-theme {
     --bg: var(--black);
-    --fontColor: var(--green);
+    --divBG: var(--green);
+    --headerbg: var(--green);
+    --fontColor: var(--black);
     --btnBg: var(--white);
     --btnFontColor: var(--black);
+    --headfontcolor: var(--black);
 }
 
 img {
-    border: 1px solid #ddd;
+    border: 1px solid var(--green);
     border-radius: 50%;
     position: relative;
     top: 80px;
