@@ -1,13 +1,13 @@
 :root {
     --green: #d4ebd4;
-    --darkblue: #212743;
+    --darkblue: #224a94;
     --white: #ffffff;
     --black: #000000;
     --offblack: #4a4949;
     --offwhite: #efefef;
     --lightpink: #c9b0b0;
-    --grey: #7e7e7e;
-    --lightblue: #c0d0e4;
+    --grey: #cccccc;
+    --lightblue: #a6bedc;
 }
 
 * {
@@ -37,6 +37,8 @@ header {
     align-items: center;
     color: var(--headfontcolor);
     background-color: var(--headerbg);
+    box-shadow: 5px 3px  6px var(--headershadow);
+
 }
 
 header * {
@@ -104,6 +106,7 @@ ul {
     --btnBg: var(--black);
     --btnFontColor: var(--white);
     --headfontcolor: var(--white);
+    --headershadow: var(--offblack);
 }
 
 .dark-theme {
@@ -115,9 +118,10 @@ ul {
     --btnBg: var(--white);
     --btnFontColor: var(--black);
     --headfontcolor: var(--black);
+    --headershadow: var(--black);
 }
 
-img {
+.img {
     border: 1px solid var(--green);
     border-radius: 50%;
     position: relative;
@@ -128,10 +132,11 @@ img {
     height: 150px
   }
 
-img1 {
-    width: 100%;
-    position: relative;
-    top: 0px;
+.img1 {
+    width: 60.65%;
+    position: absolute;
+    left: 19.7%;
+    object-fit: cover;
 }
 
 .btn {
