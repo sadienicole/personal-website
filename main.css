@@ -170,3 +170,29 @@ ul {
     border: 2px white;
 
 }
+
+@media (max-width:830px){
+        .section{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .img{
+            position:static;
+            margin-bottom: 20px;
+            max-width: 100px;
+            height: 100px;
+            margin-top: 10px;
+        }
+
+        header li {
+            margin: 18px;
+        }
+        ul {
+            font-family: 'Source Code Pro', monospace;
+            font-size: 5px;
+            padding: 10px;
+        }
+}
