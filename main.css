@@ -64,7 +64,7 @@ h1 {
 
 div1 {
     border: 5px solid var(--grey);
-    box-shadow: 12px 10px var(--shadowcolor);
+    box-shadow: 10px 10px var(--shadowcolor);
     background-color: var(--divBG);
     padding: 5%;
     display:grid;
